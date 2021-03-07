@@ -1,0 +1,45 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Share Tech Mono', monospace;
+    background-color: rgb(113, 172, 192);
+}
+
+
+#input-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    border-bottom: 2px solid black;
+    
+}
+
+#add-task {
+    padding: 5px 10px 5px 10px;
+    background-color: lightgrey;
+}
+
+#add-task:hover {
+    background-color: lightslategrey;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px 5px 10px;
+    background-color: lightgrey;
+}
+
+button:hover {
+    background-color: lightslategray;
+}
+}
+
+#list {
+    margin: 10px 0 10px 0;
+}

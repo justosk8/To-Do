@@ -1,11 +1,11 @@
 
 
-
+var count = 0;
 var body = document.body;
 var unorderedList = document.querySelector('#list');
 var newTask = document.querySelector('#add-task');
 var submit = document.querySelector('button');
-var liEl = document.createElement('li');
+//var liEl = document.createElement('li');
 
 /*
 function addTask() {
@@ -20,8 +20,10 @@ function addTask() {
 
 var addTask = function() {
     console.log(newTask.value);
+    var liEl = document.createElement('li');
     unorderedList.appendChild(liEl);
     liEl.textContent = newTask.value;
+    
 }
 
 submit.onclick = addTask;
